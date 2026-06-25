@@ -1,0 +1,162 @@
+# Linen — Otty Theme (Light)
+#
+# Warm paper-toned light theme derived from the Claude app design
+# token system. Cream/ochre background with orange-brown accents
+# and muted botanical green/teal — comfortable all-day reading.
+#
+
+
+# ── Metadata ──────────────────────────────────────────────────────────
+
+[meta]
+name        = "Linen"
+author      = "Claude"
+mode        = "light"
+description = "Warm paper-toned light theme with Claude-inspired orange-brown accents."
+
+# ── Terminal colors ───────────────────────────────────────────────────
+
+[terminal]
+foreground = "#28261b"
+background = "#f8f8f7"
+cursor     = "#ba5a37"
+cursor-text = "#f8f8f7"
+selection-foreground = "#28261b"
+selection-background = "#e7e4d7"
+font-blending = "linear"
+palette = [
+    "#0e0e0d", "#a72419", "#76895b", "#b28d4c",
+    "#1b6bbb", "#5545a1", "#5b8589", "#535045",
+    "#646257", "#c8675e", "#91a86f", "#c9ac72",
+    "#3f91e3", "#9c8ce3", "#6fa4a8", "#f8f8f7",
+]
+
+# ── Selection ──────────────────────────────────────────────────────────
+
+[selection]
+foreground = "#28261b"
+background = "#e7e4d7"
+
+# ── Ghost text (autocomplete) ─────────────────────────────────────────
+
+[ghost]
+foreground = "#8a8674"
+
+# ── Cursor ────────────────────────────────────────────────────────────
+
+[cursor]
+color = "#ba5a37"
+text  = "#f8f8f7"
+
+[cursor.block]
+color = "#ba5a37"
+text  = "#f8f8f7"
+
+[cursor.bar]
+color = "#ba5a37"
+
+[cursor.underline]
+color = "#ba5a37"
+
+# ── Tokens ────────────────────────────────────────────────────────────
+
+[token]
+foreground = "#28261b"
+secondary  = "#535045"
+tertiary   = "#646257"
+accent     = "#ba5a37"
+success    = "#76895b"
+warning    = "#b28d4c"
+danger     = "#a72419"
+hover-bg   = "rgba(0,0,0,0.04)"
+active-bg  = "rgba(186,90,55,0.12)"
+radius     = 6
+shadow     = "0 1px 3px rgba(0,0,0,0.06)"
+font-ui    = ["-apple-system", "BlinkMacSystemFont", "SF Pro", "sans-serif"]
+font-mono  = ["JetBrains Mono", "SF Mono", "Menlo", "monospace"]
+font-size  = 13
+
+# ── Panel surfaces ────────────────────────────────────────────────────
+
+[panel]
+background = "#f8f8f7"
+surface    = "#f4f3ee"
+border     = "#e7e4d7"
+
+# ── Window ────────────────────────────────────────────────────────────
+
+[window]
+background = "#f8f8f7"
+material   = "none"
+radius     = 12
+
+[window.unfocused]
+opacity = 0.92
+
+# ── Titlebar ──────────────────────────────────────────────────────────
+
+[titlebar]
+foreground  = "#535045"
+font-size   = 13
+font-weight = 500
+height      = 40
+
+[titlebar.unfocused]
+foreground = "#646257"
+
+# ── Sidebar ───────────────────────────────────────────────────────────
+
+[sidebar]
+background   = "#f4f3ee"
+border-right = "1px solid #e7e4d7"
+width        = 220
+material     = "none"
+
+# ── Tabs ──────────────────────────────────────────────────────────────
+
+[tab]
+background  = "transparent"
+foreground  = "#535045"
+radius      = 6
+font-size   = 13
+font-weight = 400
+padding     = 10
+indicator-color = "#c9c0a1"
+
+[tab.hover]
+background = "rgba(0,0,0,0.04)"
+
+[tab.active]
+background  = "#f8f8f7"
+foreground  = "#28261b"
+font-weight = 500
+shadow      = "0 1px 2px rgba(0,0,0,0.06)"
+indicator-color = "#ba5a37"
+
+[tab.active.unfocused]
+background = "#f8f8f7"
+foreground = "#535045"
+shadow     = "none"
+
+[tab-bar]
+height        = 36
+padding       = 8
+border-bottom = "1px solid #e7e4d7"
+
+[tab-bar.tab]
+radius = 8
+height = 28
+
+# ── Container ─────────────────────────────────────────────────────────
+
+[container]
+background = "#f8f8f7"
+radius     = 0
+margin     = 0
+padding    = 8
+
+# ── Divider ───────────────────────────────────────────────────────────
+
+[divider]
+color = "rgba(0,0,0,0.06)"
+width = 1
