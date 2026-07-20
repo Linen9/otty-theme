@@ -47,7 +47,7 @@ The following settings pair best with the Linen themes:
 | `cursor-style` | `"bar"` | 竖线光标视觉干扰最小，终端重度用户首选 / Least visual weight, preferred by power users |
 | `terminal-scroll-smooth` | `true` | 平滑滚动，otty Metal 后端开销极低 / Smooth scrolling, near-zero overhead on Metal |
 | `shell-integration` | `true` | 启用命令块标记、退出码提示、快速启动联动 / Command blocks, exit codes, Quick Launch integration |
-| `background-opacity` | `0.95` | 微透明增加层次感，不损文字对比度；⚠️ 低于 0.9 会导致对话区域背景与主题色偏差过大 / Subtle depth without compromising contrast; ⚠️ values below 0.9 cause significant background color divergence |
+| `background-opacity` | `0.95` | 微透明增加层次感，不损文字对比度；设为 `1.0` 则标签页与对话区域背景完全统一；⚠️ 低于 0.9 会导致对话区域背景与主题色偏差过大 / Subtle depth without compromising contrast; set to `1.0` to fully unify tab and conversation area backgrounds; ⚠️ values below 0.9 cause significant background color divergence |
 | `window-layout` | `"tabs-top"` | 顶部标签栏最符合直觉，不易遗漏多会话 / Most discoverable tab layout |
 | `auto-hide-tab-bar` | `"auto"` | 单标签时自动隐藏，节省纵向空间 / Reclaims vertical space with a single tab |
 
